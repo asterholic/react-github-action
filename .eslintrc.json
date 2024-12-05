@@ -1,0 +1,14 @@
+{
+    "plugins": [
+		"testing-library",
+		"jest-dom"
+	],
+    "extends": [
+        "react-app",
+        "plugin:testing-library/react",
+		"plugin:jest-dom/recommended"
+    ],
+    "rules": {
+        "testing-library/prefer-presence-queries": "warn"
+    }
+}
